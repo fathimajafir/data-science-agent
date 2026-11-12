@@ -1,0 +1,14 @@
+.git
+.venv
+.env
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+reports
+data
+memory
+scripts
+tests
+.github
+nohup.out

@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Secrets and local config
+.env
+
+# Local notebook (OmniWork workspace memory) - not part of the published repo
+memory/
+
+# Generated artifacts
+reports/*
+!reports/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+models/
+*.pt
+*.ckpt
+
+# OS / editor
+.DS_Store
+nohup.out
